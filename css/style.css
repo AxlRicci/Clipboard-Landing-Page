@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+.u-mb-xs {
+  margin-bottom: 1rem; }
+
+.u-mb-sm {
+  margin-bottom: 2rem; }
+
+.u-mb-md {
+  margin-bottom: 4rem; }
+
+.u-mb-lg {
+  margin-bottom: 8rem; }
+
+.u-mt-xs {
+  margin-top: 1rem; }
+
+.u-mt-sm {
+  margin-top: 2rem; }
+
+.u-mt-md {
+  margin-top: 4rem; }
+
+.u-mt-lg {
+  margin-top: 8rem; }
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #4c545d; }
+
+.btn {
+  padding: 1.8rem 4rem;
+  border-radius: 100rem;
+  border: none;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 600;
+  outline: none;
+  transition: color .2s;
+  transition: transform .1s; }
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1); }
+  .btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2); }
+  .btn--cyan {
+    background-color: #2acfb7;
+    border-bottom: 2px solid #26baa4; }
+    .btn--cyan:hover {
+      background-color: #3cd7c0;
+      border-bottom: 2px solid #2acfb7; }
+  .btn--blue {
+    background-color: #7a8aff;
+    border-bottom: 2px solid #6173ff; }
+    .btn--blue:hover {
+      background-color: #94a0ff;
+      border-bottom: 2px solid #7a8aff; }
+  .btn--group:not(:last-child) {
+    margin-right: 2rem; }
+
+.header {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.8) 35%, #fff 100%), url(../../images/bg-header-desktop.png);
+  background-size: cover; }
+  .header__content {
+    display: flex;
+    flex-direction: column;
+    width: 40%; }
+  .header__logo-container {
+    text-align: center; }
+  .header__text {
+    text-align: center; }
+  .header__title {
+    font-size: 3.8rem; }
+  .header__subtitle {
+    font-size: 1.8rem;
+    color: #9fabb2; }
+  .header__actions {
+    display: flex;
+    justify-content: center; }

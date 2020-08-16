@@ -1,0 +1,40 @@
+.header {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, transparent 0%, rgba($color-white, 0.8) 35%, $color-white 100%), url(../../images/bg-header-desktop.png);
+    background-size: cover;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    &__logo-container {
+        text-align: center;
+    }
+
+    &__logo {
+
+    }
+
+    &__text {
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 3.8rem;
+    }
+
+    &__subtitle {
+        font-size: 1.8rem;
+        color: $font-color-light;
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: center;
+    }
+}
